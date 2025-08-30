@@ -9,4 +9,5 @@ PORT="8888"
 
 # === START TUNNEL ===
 echo "[*] Starting SlowDNS using DNS $DNS_SERVER ..."
-dnstt-client -udp $DNS_SERVER:53 -pubkey $PUBKEY $NS 127.0.0.1:$PORT
+#dnstt-client -udp $DNS_SERVER:53 -pubkey $PUBKEY $NS 127.0.0.1:$PORT
+./dns -udp $DNS_SERVER:53 -pubkey $PUBKEY $NS 127.0.0.1:$PORT
