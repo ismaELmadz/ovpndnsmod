@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # === CONFIG ===
-DNS_SERVER="124.6.181.25"   # Fixed DNS
-NS="arjienx.kagerou.site"   # Your nameserver
-PUBKEY="93cbf61c1fc56446dae86d509f438742de751d0bb305c37603f2690730f94554" # Your pubkey
+DNS_SERVER="124.6.181.26"   # Fixed DNS
+NS="ns.xfxoj.tranz.shop"   # Your nameserver
+PUBKEY="33d0e4ee5525230a3a87ce7d0086b8f02c0002df57489bc7e7e6185f47da9160" # Your pubkey
 PORT="8888"
 
 
